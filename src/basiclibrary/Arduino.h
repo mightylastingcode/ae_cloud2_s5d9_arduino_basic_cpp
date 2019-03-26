@@ -141,5 +141,6 @@ void millisec_timer_callback(timer_callback_args_t * p_args);
 void ext_intr0_callback(external_irq_callback_args_t * p_args);
 void ext_intr1_callback(external_irq_callback_args_t * p_args);
 void adc0_callback (adc_callback_args_t *p_args);
+long map(long x, long in_min, long in_max, long out_min, long out_max);
 
 #endif /* DRIVERS_HELPER_H_ */
