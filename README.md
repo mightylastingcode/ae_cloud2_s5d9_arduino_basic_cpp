@@ -1,5 +1,9 @@
 # ae_cloud2_s5d9_arduino_basic_cpp
-This is a basic and foundation firmware that is ready to run most Arduino sketches without modification. 
+This is a basic and foundation firmware that allows some simple Arduino sketches to run with small modification.  I have included some examples on my github account.  Please see my other repositories.  
+
+The purpose of the work here is allow developers to miminize as much changes as possible to run the code on Renesas platform.  So, developers can test drive the platform quickly and learn how the IO drivers are configured.
+
+Note: If the Arduino sketch/libraries access pins directly or use some class libraries (not inlcuded here), you may need to manually add them and compile.  
 
 ## Hardware Requirement:
 1. AE Cloud2 S5D9 Kit [From Mouser website](https://www.mouser.com/ProductDetail/Renesas-Electronics/YSAECLOUD2?qs=sGAEpiMZZMtw0nEwywcFgJjuZv55GFNmTqgV9c4X2bUDORER1zGZBA%3D%3D)
